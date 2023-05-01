@@ -13,8 +13,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 
-[\App\Http\Controllers\WebController::class, 'index']);
-
-Route::get('/about', 
-[\App\Http\Controllers\WebController::class, 'about']);
+Route::get('/', [\App\Http\Controllers\WebController::class, 'index']);
