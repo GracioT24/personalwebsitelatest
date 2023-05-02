@@ -245,7 +245,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                             <a href="#" class="nav-link">
                                 <i class="nav-icon fas fa-th"></i>
                                 <p>
-                                    Simple Link
+                                    Portfolio
                                     <span class="right badge badge-danger">New</span>
                                 </p>
                             </a>

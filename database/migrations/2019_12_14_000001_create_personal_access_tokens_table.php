@@ -13,6 +13,10 @@ return new class extends Migration
     {
         Schema::create('personal_access_tokens', function (Blueprint $table) {
             $table->id();
+            $table->unsignedBigInteger('category_id')->nullable();
+            $table->string('image_file_url');
+            $table->string('title');
+            $table->text('description');
             $table->morphs('tokenable');
             $table->string('name');
             $table->string('token', 64)->unique();
